@@ -1,0 +1,96 @@
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+#inner {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.child {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 300px;
+    height: 130px;
+}
+
+#Second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px ;
+    width: 100%;
+}
+
+#Third, #Fourth, #Fifth {
+    text-align: center;
+    padding: 10px 0;
+    color: aliceblue;
+}
+
+#Third h1, #Fourth h1, #Fifth h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#Sixth {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+#Sixth input {
+    border-radius: 20px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+#getOTP-container {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+}
+
+#getOTP-container button {
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #a82222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#paragraph {
+    padding-left: 500px;
+    padding-right: 500px;
+    padding-bottom: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.centered-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#getOTP-container button:hover{
+    background-color: aquamarine;
+}
+
+#textLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
